@@ -10,7 +10,7 @@ const TopColleges = () => {
       .then((res) => res.json())
       .then((data) => setColleges(data));
   }, []);
-  console.log(colleges);
+
   return (
     <Container>
       <h2 className="primary-font text-3xl sm:text-5xl uppercase mt-16 sm:mt-32  text-center ">
