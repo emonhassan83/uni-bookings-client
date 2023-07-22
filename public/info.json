@@ -1,0 +1,284 @@
+[
+    {
+      "image": "https://i.ibb.co/2PFvLWg/MIT-uni.jpg",
+      "college": "Massachusetts Institute of Technology (MIT) - USA",
+      "address": "214 Coyle Street, Deputy, Tennessee, 850",
+      "events_details": "MIT - 'HackMIT': HackMIT is a highly anticipated annual hackathon organized by the Massachusetts Institute of Technology (MIT). During this event, talented students, programmers, and innovators from all over the world gather on the MIT campus to participate in an intense and creative coding marathon. Participants form teams and collaborate to build innovative software, hardware, or digital solutions within a limited timeframe, often 24 to 36 hours. HackMIT encourages participants to explore their technical skills, creativity, and problem-solving abilities. The event provides a platform for networking with industry professionals and like-minded individuals, and many exciting projects and startups have emerged from this hackathon in the past.",
+      "research_history": "Massachusetts Institute of Technology (MIT) has a long-standing tradition of pioneering research and innovation across various fields of science, engineering, and technology. Since its founding in 1861, MIT has been at the forefront of cutting-edge research, contributing to advancements in areas like computer science, artificial intelligence, aerospace engineering, robotics, and renewable energy. The institute has played a crucial role in numerous scientific breakthroughs and has been home to many influential researchers and Nobel laureates.",
+      "research_work": "Massachusetts Institute of Technology (MIT) is renowned for its pioneering research in areas such as computer science, artificial intelligence, robotics, aerospace engineering, nanotechnology, renewable energy, and biotechnology. MIT has been involved in the development of innovative technologies, including the World Wide Web, GPS, and the development of the first molecular computer. Research at MIT often emphasizes practical applications and real-world problem-solving",
+      "research_number": 98,
+      "admission_date": "2019-05-11T07:47:24 -06:00",
+      "rating": 5,
+      "admission_process": [
+        "Explore different colleges, their programs, and admission requirements to find the best fit for your academic and personal goals.",
+        "Gather all necessary documents, including transcripts, standardized test scores, essays, and recommendation letters, and submit a complete application by the deadline.",
+        "Take required standardized tests (SAT, ACT, etc.) and ensure scores are sent directly to the colleges you're applying to.",
+        "Research and apply for financial aid, scholarships, and grants to help with college expenses.",
+        "Some colleges may require an interview, either in-person or online, to assess your fit for the institution.",
+        "Wait for the college's decision, and once accepted, respond to the admission offer by the deadline to secure your spot."
+      ],
+      "sports": [
+        {
+          "sports_category": "Gymnastics",
+          "details": "An athletic sport involving physical exercises, flexibility, balance, and coordination, typically performed individually or as part of a team."
+        },
+        {
+          "sports_category": "Table Tennis",
+          "details": "Also known as ping pong, a sport played on a table, where players use paddles to hit a lightweight ball over a net."
+        },
+        {
+          "sports_category": "Ice Hockey",
+          "details": "A fast-paced sport played on ice, where teams use sticks to hit a puck into the opponent's net to score goals."
+        }
+      ],
+      "gallary": [
+        {
+          "id": 0,
+          "image": "https://i.ibb.co/bQf9tkX/architecture-independence-palace-ho-chi-minh-city.jpg"
+        },
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/nmcrmf2/chris-boland-yu-Qbpps3-Tms-unsplash.jpg"
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/rc7Qjwr/clem-onojeghuo-Z2-Otk-WTT7h-M-unsplash.jpg"
+        }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/XSM4jzj/standford-uni.jpg",
+      "college": "Stanford University - USA",
+      "address": "555 Hart Place, Osmond, Georgia, 8665",
+      "events_details": "Maifest is a vibrant and lively spring festival celebrated at Stanford University. It is organized by student groups and the university administration to foster a sense of unity and cultural diversity on campus. During Maifest, various cultural clubs and organizations set up booths and stalls representing different countries and regions. The event features traditional dance performances, music, art displays, and culinary delights from around the world. It is a wonderful opportunity for students to learn about different cultures, engage in meaningful conversations, and celebrate the global diversity that Stanford's community offers.",
+      "research_history": "Stanford University has a rich research history spanning over a century, characterized by groundbreaking discoveries and significant contributions to numerous disciplines. Founded in 1885, Stanford has been a driving force in technological advancements, entrepreneurship, and medical research. From the development of the internet protocols to the creation of the first successful heart transplant, Stanford's research has had a global impact on technology, medicine, and various other fields.",
+      "research_work": "Stanford University has a diverse research portfolio that spans fields such as computer science, biomedical engineering, neuroscience, economics, and materials science. The university has been at the forefront of technological advancements, including the development of Silicon Valley, the first internet router, and breakthroughs in gene editing technologies like CRISPR. Stanford's research often intersects with entrepreneurship and innovation.",
+      "research_number": 91,
+      "admission_date": "2022-09-24T07:26:42 -06:00",
+      "rating": 4.9,
+      "admission_process": [
+        "Explore different colleges, their programs, and admission requirements to find the best fit for your academic and personal goals.",
+        "Gather all necessary documents, including transcripts, standardized test scores, essays, and recommendation letters, and submit a complete application by the deadline.",
+        "Take required standardized tests (SAT, ACT, etc.) and ensure scores are sent directly to the colleges you're applying to.",
+        "Research and apply for financial aid, scholarships, and grants to help with college expenses.",
+        "Some colleges may require an interview, either in-person or online, to assess your fit for the institution.",
+        "Wait for the college's decision, and once accepted, respond to the admission offer by the deadline to secure your spot."
+      ],
+      "sports": [
+        {
+          "sports_category": "Badminton",
+          "details": "A racket sport played on a rectangular court, where players use a shuttlecock to score points by hitting it over the net."
+        },
+        {
+          "sports_category": "Volleyball",
+          "details": "A team sport played on a rectangular court, where teams try to hit a ball over a net and into the opponent's court, with the goal of scoring points."
+        },
+        {
+          "sports_category": "Boxing",
+          "details": "A combat sport where two opponents use their fists to strike each other within a set of rules, aiming to knock out or outscore their opponent."
+        }
+      ],
+      "gallary": [
+        {
+          "id": 0,
+          "image": "https://i.ibb.co/58mntpr/dom-fou-YRMWVcdyhm-I-unsplash.jpg"
+        },
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/QCSyKj2/cole-keister-v-Eg-VWRBr2-VY-unsplash.jpg"
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/KDvp2Ht/friends-learning-grass.jpg"
+        }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/Bz5XNmM/harvard-uni.jpg",
+      "college": "Harvard University - USA",
+      "address": "637 Vandalia Avenue, Groton, New Hampshire, 1608",
+      "events_details": "The Harvard Model United Nations (HMUN) is a prestigious international conference hosted by Harvard University. High school students from across the globe participate in this simulation of the United Nations, assuming the roles of diplomats representing different countries. Over the course of several days, participants engage in intense debates, negotiations, and resolutions on pressing global issues, ranging from climate change to human rights.",
+      "research_history": "Harvard University, established in 1636, boasts a profound research legacy across diverse academic domains. With a strong emphasis on interdisciplinary research, Harvard has been a pioneer in fields such as medicine, law, economics, and social sciences. It has been home to some of the world's most influential thinkers, including numerous Nobel laureates, and has played a crucial role in shaping modern academic research.",
+      "research_work": "Harvard University is known for its influential research in areas such as medicine, law, social sciences, economics, public health, and literature. Harvard researchers have made significant contributions to fields like stem cell research, public policy, cognitive science, and global health. The university has a long history of fostering interdisciplinary collaborations to address complex societal challenges.",
+      "research_number": 79,
+      "admission_date": "2020-10-17T04:08:47 -06:00",
+      "rating": 5,
+      "admission_process": [
+        "Explore different colleges, their programs, and admission requirements to find the best fit for your academic and personal goals.",
+        "Gather all necessary documents, including transcripts, standardized test scores, essays, and recommendation letters, and submit a complete application by the deadline.",
+        "Take required standardized tests (SAT, ACT, etc.) and ensure scores are sent directly to the colleges you're applying to.",
+        "Research and apply for financial aid, scholarships, and grants to help with college expenses.",
+        "Some colleges may require an interview, either in-person or online, to assess your fit for the institution.",
+        "Wait for the college's decision, and once accepted, respond to the admission offer by the deadline to secure your spot."
+      ],
+      "sports": [
+        {
+          "sports_category": "Golf",
+          "details": "A precision club-and-ball sport played on a course with the objective of hitting a ball into a series of holes in as few strokes as possible."
+        },
+        {
+          "sports_category": "Swimming",
+          "details": "A water sport where athletes use various swimming strokes to compete in individual or team events. It is an essential part of the Olympic Games."
+        },
+        {
+          "sports_category": "Athletics (Track and Field)",
+          "details": " A collection of sports events, including running, jumping, and throwing disciplines, competed in individually or as part of a team."
+        }
+      ],
+      "gallary": [
+        {
+          "id": 0,
+          "image": "https://i.ibb.co/wpjJ40d/korng-sok-Pu1t-YR6vp-HE-unsplash.jpg"
+        },
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/M992H8R/k-mitch-hodge-Uy-CEc-LRpie0-unsplash.jpg"
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/zZCqvR3/low-angle-cheerful-team-students-passed-test-by-preparing-all-together.jpg"
+        }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/7JQZ7v9/Caltech-uni.jpg",
+      "college": "California Institute of Technology (Caltech) - USA",
+      "address": "122 Aurelia Court, Holcombe, Idaho, 9944",
+      "events_details": "Caltech's Einstein Public Lecture Series is a captivating intellectual event that brings prominent scientists, researchers, and Nobel laureates to the Caltech campus. These distinguished speakers share their groundbreaking discoveries and cutting-edge research with the academic community and the public. The lectures cover a wide range of topics, from astrophysics and quantum mechanics to biology and environmental science. The series aims to inspire curiosity, spark interest in science, and promote a deeper understanding of complex scientific concepts among both students and the general public.",
+      "research_history": "The California Institute of Technology (Caltech) has a storied history of scientific research, dating back to its founding in 1891. Caltech has been at the forefront of research in physics, astronomy, engineering, and planetary sciences. It has been associated with major space missions, discoveries in quantum mechanics, and the development of innovative technologies. Caltech's commitment to cutting-edge research continues to position it as a leading institution in scientific exploration.",
+      "research_work": "The California Institute of Technology (Caltech) has been at the forefront of research in physics, astronomy, planetary sciences, engineering, and environmental science. Caltech has played a pivotal role in space exploration and has contributed to groundbreaking discoveries in astrophysics, including the identification of new planets and gravitational waves. The institute's research often focuses on fundamental scientific questions and exploration of the cosmos.",
+      "research_number": 52,
+      "admission_date": "2022-02-14T10:22:07 -06:00",
+      "rating": 5,
+      "admission_process": [
+        "Explore different colleges, their programs, and admission requirements to find the best fit for your academic and personal goals.",
+        "Gather all necessary documents, including transcripts, standardized test scores, essays, and recommendation letters, and submit a complete application by the deadline.",
+        "Take required standardized tests (SAT, ACT, etc.) and ensure scores are sent directly to the colleges you're applying to.",
+        "Research and apply for financial aid, scholarships, and grants to help with college expenses.",
+        "Some colleges may require an interview, either in-person or online, to assess your fit for the institution.",
+        "Wait for the college's decision, and once accepted, respond to the admission offer by the deadline to secure your spot."
+      ],
+      "sports": [
+        {
+          "sports_category": "Rugby",
+          "details": "A rough contact sport with two teams aiming to carry or kick an oval-shaped ball over the opponent's try line. There are two main variants: rugby union and rugby league."
+        },
+        {
+          "sports_category": "Baseball",
+          "details": " A bat-and-ball sport played on a diamond-shaped field, where players hit a pitched ball and run around bases to score runs. Baseball is considered the national pastime in the United States."
+        },
+        {
+          "sports_category": "Tennis",
+          "details": "A racket sport played on a rectangular court, where players use rackets to hit a ball over a net. Tennis is played in singles or doubles matches and requires skill, speed, and strategy."
+        }
+      ],
+      "gallary": [
+        {
+          "id": 0,
+          "image": "https://i.ibb.co/sKVPnKC/school-teaching-building.jpg"
+        },
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/rc7Qjwr/clem-onojeghuo-Z2-Otk-WTT7h-M-unsplash.jpg"
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/zW3rmWQ/medium-shot-teenage-boy-showing-peace-sign.jpg"
+        }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/LZZxKbq/orford-uni.jpg",
+      "college": "University of Oxford - United Kingdom",
+      "address": "733 Kaufman Place, Volta, Missouri, 2706",
+      "events_details": "The Oxford Literary Festival is an annual celebration of literature and ideas held in the historic city of Oxford. It attracts renowned authors, poets, and thinkers from around the world who participate in engaging discussions, readings, and book signings. The festival covers various literary genres, including fiction, non-fiction, poetry, and academic works. Attendees have the opportunity to interact with their favorite authors, attend book launches, and discover new and exciting literary voices. The Oxford Literary Festival enriches the cultural and intellectual life of the city and is a must-visit for literature enthusiasts.",
+      "research_history": "The University of Oxford, one of the oldest universities in the world (founded in 1096), has a remarkable research history spanning centuries. Oxford's contributions to academia include breakthroughs in mathematics, medicine, literature, and the humanities. Notable figures such as Sir Isaac Newton, Stephen Hawking, and J.R.R. Tolkien have been associated with the university. Oxford's research legacy remains integral to shaping global knowledge and understanding.",
+      "research_work": "The University of Oxford is renowned for its research in diverse fields, including mathematics, medicine, social sciences, literature, and humanities. Oxford researchers have made significant contributions to areas such as vaccine development, archaeology, climate science, and artificial intelligence. The university emphasizes collaborative and interdisciplinary research to address global challenges.",
+      "research_number": 58,
+      "admission_date": "2022-01-17T03:39:50 -06:00",
+      "rating": 4,
+      "admission_process": [
+        "Explore different colleges, their programs, and admission requirements to find the best fit for your academic and personal goals.",
+        "Gather all necessary documents, including transcripts, standardized test scores, essays, and recommendation letters, and submit a complete application by the deadline.",
+        "Take required standardized tests (SAT, ACT, etc.) and ensure scores are sent directly to the colleges you're applying to.",
+        "Research and apply for financial aid, scholarships, and grants to help with college expenses.",
+        "Some colleges may require an interview, either in-person or online, to assess your fit for the institution.",
+        "Wait for the college's decision, and once accepted, respond to the admission offer by the deadline to secure your spot."
+      ],
+      "sports": [
+        {
+          "sports_category": "Badminton",
+          "details": "A racket sport played on a rectangular court, where players use a shuttlecock to score points by hitting it over the net."
+        },
+        {
+          "sports_category": "Volleyball",
+          "details": "A team sport played on a rectangular court, where teams try to hit a ball over a net and into the opponent's court, with the goal of scoring points."
+        },
+        {
+          "sports_category": "Boxing",
+          "details": "A combat sport where two opponents use their fists to strike each other within a set of rules, aiming to knock out or outscore their opponent."
+        }
+      ],
+      "gallary": [
+        {
+          "id": 0,
+          "image": "https://i.ibb.co/Zx4W50Y/tetiana-shyshkina-doz4m12-DDig-unsplash.jpg"
+        },
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/prjp6DJ/valentino-mazzariello-Ndm1hh-Icw-Hc-unsplash.jpg"
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/nLGv79q/smiling-students-studying-together-table.jpg"
+        }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/J26yzdM/cambridge-uni.jpg",
+      "college": "University of Cambridge - United Kingdom",
+      "address": "975 Minna Street, Cherokee, Florida, 2820",
+      "events_details": "The May Ball is a grand and lavish event held in June, traditionally celebrating the end of the academic year at the University of Cambridge. Students don their finest formal attire and gather at one of the university's colleges for a night of festivities. The May Ball features live music performances, dance floors, and gourmet dining experiences. The college courtyards and gardens are adorned with beautiful decorations, sparkling lights, and themed installations, creating a magical atmosphere. It is a time for students to relax and enjoy each other's company after a year of hard work and academic commitments. The May Ball is a cherished tradition at Cambridge and is considered one of the most memorable events in the university's social calendar.",
+      "research_history": "Founded in 1209, the University of Cambridge has a long and illustrious research history that spans diverse fields of study. The university has been instrumental in advancements in mathematics, biology, literature, and philosophy. From the discovery of the structure of DNA to groundbreaking work in cosmology and quantum computing, Cambridge's research has left an indelible mark on the world of academia and continues to inspire generations of scholars.",
+      "research_work": "The University of Cambridge has a distinguished research history in areas such as mathematics, physics, biology, literature, and economics. Cambridge researchers have contributed to breakthroughs in areas like DNA structure, the discovery of new chemical elements, and the development of novel materials. The university's research often involves close collaboration between various faculties and departments.",
+      "research_number": 80,
+      "admission_date": "2014-12-07T09:00:51 -06:00",
+      "rating": 5,
+      "admission_process": [
+        "Explore different colleges, their programs, and admission requirements to find the best fit for your academic and personal goals.",
+        "Gather all necessary documents, including transcripts, standardized test scores, essays, and recommendation letters, and submit a complete application by the deadline.",
+        "Take required standardized tests (SAT, ACT, etc.) and ensure scores are sent directly to the colleges you're applying to.",
+        "Research and apply for financial aid, scholarships, and grants to help with college expenses.",
+        "Some colleges may require an interview, either in-person or online, to assess your fit for the institution.",
+        "Wait for the college's decision, and once accepted, respond to the admission offer by the deadline to secure your spot."
+      ],
+      "sports": [
+        {
+          "sports_category": "Gymnastics",
+          "details": "An athletic sport involving physical exercises, flexibility, balance, and coordination, typically performed individually or as part of a team."
+        },
+        {
+          "sports_category": "Table Tennis",
+          "details": "Also known as ping pong, a sport played on a table, where players use paddles to hit a lightweight ball over a net."
+        },
+        {
+          "sports_category": "Ice Hockey",
+          "details": "A fast-paced sport played on ice, where teams use sticks to hit a puck into the opponent's net to score goals."
+        }
+      ],
+      "gallary": [
+        {
+          "id": 0,
+          "image": "https://i.ibb.co/rFswb8d/tim-alex-FC1uuek-Wo-Zc-unsplash.jpg"
+        },
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/VM5K8vc/zwinger-palace-dresden.jpg"
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/rc7Qjwr/clem-onojeghuo-Z2-Otk-WTT7h-M-unsplash.jpg"
+        }
+      ]
+    }
+  ]

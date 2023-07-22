@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="max-w-[2520px] xl:px-28 md:px-10 sm:px-2  fixed z-10 lg:py-2 w-full px-4  mx-auto">
+    <div className="max-w-[2520px] xl:px-28 md:px-10 sm:px-2 lg:py-2 w-full px-4  mx-auto">
       <div className="relative flex items-center justify-between">
         <Link
           to="/"

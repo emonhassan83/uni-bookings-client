@@ -8,6 +8,8 @@ import Colleges from "../pages/Colleges/Colleges";
 import Admission from "../pages/Admission/Admission";
 import MyCollege from "../pages/MyCollege/MyCollege";
 import Profile from "../pages/Profile/Profile";
+import PrivateRoute from "./PrivateRoute";
+import College from "../pages/College/College";
 
 const router = createBrowserRouter([
     {
@@ -24,12 +26,17 @@ const router = createBrowserRouter([
             element: <Colleges/>,
           },
           {
+            path: "/college/:id",
+            element: <College/>,
+            loader: ({params}) =>  fetch(`${import.meta.env.VITE_API_URL}/college/${params.id}`)
+          },
+          {
             path: "/admission",
-            element: <Admission/>,
+            element: <PrivateRoute><Admission/></PrivateRoute>,
           },
           {
             path: "/myCollege",
-            element: <MyCollege/>
+            element: <PrivateRoute><MyCollege/></PrivateRoute>,
           },
           {
             path: "/profile",
