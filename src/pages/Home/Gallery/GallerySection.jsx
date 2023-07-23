@@ -41,7 +41,7 @@ const GallerySection = () => {
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
         {
             galleryImages.map((data) => <div key={data.id}>
-                <img className="rounded-sm lg:h-[280px]" src={data.img} alt="" />
+                <img className="rounded-sm lg:h-[280px] hover:scale-105 transition hover:opacity-80" src={data.img} alt="" />
             </div>)
         }
       </div>

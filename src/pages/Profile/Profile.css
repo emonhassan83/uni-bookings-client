@@ -7,3 +7,12 @@
   padding: 55px;
   margin-bottom: 40px;
 }
+
+    /* Responsive */
+    @media only screen and (max-width: 576px) {
+      .profile__card {
+        width: 330px;
+        height: 520px;
+        padding: 20px;
+      }
+    }

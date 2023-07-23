@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import './MyCollege.css'
 import Swal from "sweetalert2";
 import { addFeedback } from "../../api/feedback";
+import { Helmet } from "react-helmet-async";
 
 const MyCollege = () => {
   const [myColleges, setMyCollege] = useState("");
@@ -50,7 +51,10 @@ const MyCollege = () => {
 
   return (
     <Container>
-      <h2 className="primary-font text-3xl sm:text-3xl uppercase mt-4 text-center ">
+      <Helmet>
+          <title>Uni Bookings | My-College</title>
+        </Helmet>
+      <h2 className="primary-font text-2xl sm:text-3xl font-semibold uppercase mt-4 text-center ">
         My Admission Colleges
       </h2>
       <div className="my-6">
@@ -61,11 +65,11 @@ const MyCollege = () => {
             ))}
       </div>
       <div className="mt-10">
-        <h4 className="primary-font text-3xl sm:text-3xl uppercase my-4 text-center ">Add Your Comment</h4>
+        <h4 className="primary-font text-2xl sm:text-3xl font-semibold uppercase my-4 text-center ">Add Your Comment</h4>
         <div className="comment__card mx-auto">
-        <h1 className="text-xl font-semibold mb-4">Add Review</h1>
+        <h1 className="sm:text-xl font-semibold mb-4">Add Review</h1>
          <form onSubmit={handleSubmit(onSubmit)}>
-         <label>Your Feedback</label>
+         <label className="text-sm sm:text-base">Your Feedback</label>
         <input
           type="text"
           defaultValue=""
@@ -79,7 +83,7 @@ const MyCollege = () => {
           </p>
         )}
 
-         <label>Ratings</label>
+         <label className="text-sm sm:text-base">Ratings</label>
         <input
           type="text"
           defaultValue=""

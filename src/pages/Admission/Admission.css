@@ -33,3 +33,12 @@
     background-color: rgb(236, 236, 236);
     margin-bottom: 16px;
   }
+
+  /* Responsive */
+  @media only screen and (max-width: 576px) {
+    .admission-card {
+      width: 330px;
+      height: 880px;
+      padding: 20px;
+    }
+  }

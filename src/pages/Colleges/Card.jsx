@@ -7,7 +7,7 @@ const Card = ({ collegeData }) => {
   return (
     <div className="card  bg-base-100">
       <img className="lg:h-[280px]" src={image} alt="College" />
-      <div className="card-body">
+      <div className="card-body px-2 sm:px-6">
         <h2 className="text-lg font-semibold">{college}</h2>
         <p className="text-sm -my-1">
           <span className="font-semibold">Admission Date: </span>
@@ -20,7 +20,7 @@ const Card = ({ collegeData }) => {
         <p className="text-sm -my-1">
           <span className="font-semibold">Rating:</span> {rating}
         </p>
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-start mt-2">
           <Link to={`/college/${_id}`}>
             <button className="btn btn-sm">View Details</button>
           </Link>

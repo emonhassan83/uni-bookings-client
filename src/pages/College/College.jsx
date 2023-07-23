@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import { CiLocationOn } from "react-icons/ci";
 import { BiRightArrowCircle } from "react-icons/bi";
 import Container from "../../components/Shared/Container/Container";
+import { Helmet } from "react-helmet-async";
 
 const College = () => {
   const collegeData = useLoaderData();
@@ -21,6 +22,9 @@ const College = () => {
 
   return (
     <Container>
+      <Helmet>
+        <title>Uni Bookings | College-Details</title>
+      </Helmet>
       <>
         <h1 className="text-2xl font-semibold">{college}</h1>
         <p className="flex items-center gap-1 mt-2 text-sm">

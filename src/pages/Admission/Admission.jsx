@@ -72,17 +72,17 @@ const Admission = () => {
 
   return (
     <Container>
-      <h1 className="primary-font text-3xl text-center mt-4">
+      <Helmet>
+          <title>Uni Bookings | Admission</title>
+        </Helmet>
+      <h1 className="primary-font text-2xl text-center uppercase font-semibold mt-4">
         Choose Your Admission
       </h1>
       <div className="mt-6 mb-12 admission-card mx-auto">
-        <Helmet>
-          <title>Uni Bookings | SignUp</title>
-        </Helmet>
-        <h2 className="text-2xl font-bold mb-6">Choose Your Admission</h2>
+        <h2 className="text-2xl font-semibold mb-6">Fill Your Info</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <label>Select College</label>
-          <select className="block mt-3 mb-8 w-full" {...register("college")}>
+          <label className="text-sm sm:text-base">Select College</label>
+          <select className="block mt-3 mb-8 w-full text-sm sm:text-base" {...register("college")}>
             {allCollegeNames &&
               allCollegeNames.map((collegeName) => (
                 <option key={collegeName} value={collegeName}>
@@ -91,7 +91,7 @@ const Admission = () => {
               ))}
           </select>
 
-          <label>Candidate Name</label>
+          <label className="text-sm sm:text-base">Candidate Name</label>
           <input
             type="text"
             name="name"
@@ -104,7 +104,7 @@ const Admission = () => {
             </p>
           )}
 
-          <label>Subject</label>
+          <label className="text-sm sm:text-base">Subject</label>
           <input
             type="text"
             name="subject"
@@ -120,7 +120,7 @@ const Admission = () => {
             </p>
           )}
 
-          <label>Username or Email</label>
+          <label className="text-sm sm:text-base">Username or Email</label>
           <input
             type="email"
             name="email"
@@ -133,7 +133,7 @@ const Admission = () => {
             </p>
           )}
 
-          <label>Your Phone number</label>
+          <label className="text-sm sm:text-base">Your Phone number</label>
           <input
             type="text"
             {...register("phone", { required: true })}
@@ -146,7 +146,7 @@ const Admission = () => {
             </p>
           )}
 
-          <label>Your Address</label>
+          <label className="text-sm sm:text-base">Your Address</label>
           <input
             type="text"
             defaultValue=""
@@ -160,7 +160,7 @@ const Admission = () => {
             </p>
           )}
 
-          <label>Your Date Of Birth</label>
+          <label className="text-sm sm:text-base">Your Date Of Birth</label>
           <input
             type="text"
             {...register("dateOfBirth", { required: true })}
@@ -173,7 +173,7 @@ const Admission = () => {
             </p>
           )}
 
-          <label>Photo Url</label>
+          <label className="text-sm sm:text-base">Photo Url</label>
           <input
             type="url"
             defaultValue=""

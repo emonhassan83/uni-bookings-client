@@ -1,10 +1,14 @@
 import { Link, useRouteError } from 'react-router-dom'
 import img from '../../assets/404/404_img.svg'
+import { Helmet } from 'react-helmet-async'
 
 const ErrorPage = () => {
   const { error, status } = useRouteError()
   return (
     <section className='h-screen p-16 text-gray-900'>
+      <Helmet>
+        <title>Uni Bookings | 404</title>
+      </Helmet>
       <div className='container md:flex items-center justify-center px-5 mx-auto my-8 gap-10'>
         <div className='max-w-md text-center mx-auto'>
           <h2 className='mb-8 font-extrabold text-9xl text-gray-700'>

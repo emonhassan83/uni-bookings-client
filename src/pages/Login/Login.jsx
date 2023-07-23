@@ -2,18 +2,20 @@ import { useForm } from "react-hook-form";
 import "./Login.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-import { useContext, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
 import Swal from "sweetalert2";
 import { Helmet } from "react-helmet-async";
 import SocialLogin from "../../components/Shared/SocialLogin/SocialLogin";
+import { Toaster, toast } from "react-hot-toast";
 
 const Login = () => {
-  const { signIn } = useContext(AuthContext);
+  const { signIn, resetPassword } = useContext(AuthContext);
   const [error, setError] = useState('');
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const emailRef = useRef();
 
   const from = location.state?.from?.pathname || "/";
 
@@ -22,8 +24,8 @@ const Login = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+
   const onSubmit = (data) => {
-    console.log(data)
     const email = data.email;
     const password = data.password;
     setError('')
@@ -44,17 +46,35 @@ const Login = () => {
           console.log(error)
         })
   };
+
+  const handleResetPassword = () => {
+    const email = emailRef.current.value;
+    if (!email) {
+      toast.error('Please provide  your email address to reset password');
+      return;
+    }
+    resetPassword(email)
+    .then( () => {
+      toast.success('Please check your email');
+    })
+    .catch(error => {
+      console.log(error);
+      setError(error.message);
+    })
+  };
+
   return (
     <div className="mt-6 mb-12  login-card mx-auto">
       <Helmet>
-        <title>Artistry Academia | Login</title>
+        <title>Uni Bookings | Login</title>
       </Helmet>
-      <h2 className="text-2xl font-bold mb-8">Login Please</h2>
+      <h2 className="text-xl sm:text-2xl font-bold mb-8">Login Please</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <label>Username or Email</label>
+        <label className="text-sm sm:text-base">Username or Email</label>
         <input
           type="email"
           name="email"
+          ref={emailRef}
           {...register("email", { required: true })}
           required
         />
@@ -64,7 +84,7 @@ const Login = () => {
           </p>
         )}
 
-        <label>Password</label>
+        <label className="text-sm sm:text-base">Password</label>
         <input
           type={show ? "text" : "password" }
           name="password"
@@ -102,6 +122,14 @@ const Login = () => {
         />
         {error && <p className="text-red-500 font-bold -mt-3"><small>{error}</small></p>}
         <p>
+        <small>
+          Forget PassWord? Please{" "}
+          <button onClick={handleResetPassword} className="btn btn-link text-xs text-pink-600 font-bold">
+            Reset Password
+          </button>
+        </small>
+      </p>
+        <p>
           <small>
             New to UniBookings? Please{" "}
             <Link to="/signUp" className="text-pink-600 font-bold">
@@ -112,6 +140,7 @@ const Login = () => {
       </form>
       <div className="divider mt-5">OR</div>
       <SocialLogin />
+      <Toaster/>
     </div>
   );
 };

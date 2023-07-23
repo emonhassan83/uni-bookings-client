@@ -35,13 +35,21 @@ const Testimonial = () => {
             feedbacks.map((feedback) => (
               <SwiperSlide key={feedback._id}>
                 <div className="flex flex-col items-center mt-12 lg:mx-24 mb-20">
+                  <div className="flex gap-4">
+                  <img className="w-10 h-10 rounded-full" src={feedback.image} alt="" />
+                  <div>
+                  <h4 className="text-lg font-semibold">{feedback.name}</h4>
+                  <div className="flex gap-1">
                   <Rating
-                    style={{ maxWidth: 180 }}
-                    value={feedback.rating}
-                    readOnly
-                  />
+                  style={{ maxWidth: 60 }}
+                  value={feedback.rating}
+                  readOnly
+                />
+                <p className="text-sm text-yellow-500">{feedback.rating}</p>
+                  </div>
+                  </div>
+                  </div>
                   <p className="pt-8 pb-4">{feedback.feedback}</p>
-                  <h4 className="text-2xl text-yellow-500">{feedback.name}</h4>
                 </div>
               </SwiperSlide>
             ))}

@@ -62,9 +62,9 @@ const SignUp = () => {
       <Helmet>
         <title>Uni Bookings | SignUp</title>
       </Helmet>
-      <h2 className="text-2xl font-bold mb-6">Sign Up Please</h2>
+      <h2 className=" text-xl sm:text-2xl font-bold mb-6">Sign Up Please</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <label>Full Name</label>
+        <label className="text-sm sm:text-base">Full Name</label>
         <input
           type="text"
           name="name"
@@ -77,7 +77,7 @@ const SignUp = () => {
           </p>
         )}
 
-        <label>Username or Email</label>
+        <label className="text-sm sm:text-base">Username or Email</label>
         <input
           type="email"
           name="email"
@@ -90,7 +90,7 @@ const SignUp = () => {
           </p>
         )}
 
-        <label>Password</label>
+        <label className="text-sm sm:text-base">Password</label>
         <input
           type="password"
           name="password"
@@ -121,7 +121,7 @@ const SignUp = () => {
           </p>
         )}
 
-        <label>Confirm Password</label>
+        <label className="text-sm sm:text-base">Confirm Password</label>
         <input
           type="password"
           name="password"
@@ -152,7 +152,7 @@ const SignUp = () => {
           </p>
         )}
 
-        <label>Photo Url</label>
+        <label className="text-sm sm:text-base">Photo Url</label>
         <input
           type="url"
           defaultValue=""
@@ -165,7 +165,7 @@ const SignUp = () => {
             <small>PhotoURL field is required</small>
           </p>
         )}
-        <label>Your University</label>
+        <label className="text-sm sm:text-base">Your University</label>
         <input
           type="text"
           defaultValue=""
@@ -178,7 +178,7 @@ const SignUp = () => {
             <small>This field is required</small>
           </p>
         )}
-        <label>Your Address</label>
+        <label className="text-sm sm:text-base">Your Address</label>
         <input
           type="text"
           defaultValue=""
