@@ -1,0 +1,9 @@
+.comment__card {
+    width: 560px;
+    height: 380px;
+    background: #ffffff;
+    border: 1px solid #ababab;
+    border-radius: 6px;
+    padding: 55px;
+    margin-bottom: 40px;
+  }

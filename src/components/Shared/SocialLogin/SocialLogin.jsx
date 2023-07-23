@@ -4,6 +4,7 @@ import { toast } from "react-hot-toast";
 
 import { useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProviders";
+import { saveUser } from "../../../api/users";
 
 const SocialLogin = () => {
   const { googleSignIn } = useContext(AuthContext);
@@ -20,8 +21,8 @@ const SocialLogin = () => {
         const logUser = result.user;
         console.log(logUser);
         //save user in db
+        saveUser(logUser);
         
-
         toast.success("user logged in successfully");
         navigate(from, { replace: true });
       })

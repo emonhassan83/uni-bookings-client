@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet-async";
 import { AuthContext } from "../../providers/AuthProviders";
 import { useContext, useState } from "react";
 import Swal from "sweetalert2";
+import { saveUser } from "../../api/users";
 
 const SignUp = () => {
     const [error, setError] = useState("");
@@ -33,6 +34,7 @@ const SignUp = () => {
         updateUserProfile(data.name, data.photoURL)
           .then(() => {
             //save user to db
+            saveUser(loggedUser);
             
             Swal.fire({
               position: "top-end",
