@@ -12,8 +12,8 @@ const CollegeCard = ({ collegeData }) => {
 
   return (
     <div className="card lg:card-side bg-base-100 rounded-lg my-6">
-      <img className="md:w-1/2 rounded-sm" src={image} alt="College" />
-      <div className="card-body px-2 sm:px-8 lg:px-10 md:w-1/2">
+      <img className="lg:w-1/2 rounded-sm" src={image} alt="College" />
+      <div className="card-body px-2 sm:px-8 lg:px-10 lg:w-1/2">
         <h2 className="card-title">{college}</h2>
         <p className="text-sm text-gray-600">
           <span className="font-bold">Events:</span> <span>{events_details}</span>
