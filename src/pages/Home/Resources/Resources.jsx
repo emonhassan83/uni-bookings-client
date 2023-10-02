@@ -1,24 +1,27 @@
 import Container from "../../../components/Shared/Container/Container";
 import BlogCard from "./BlogCard";
 import BlogsResources from "./BlogsResources";
+import img1 from '../../../assets/section/section1.jpg'
+import img2 from '../../../assets/section/section2.jpg'
+import img3 from '../../../assets/section/section3.jpg'
 
 const Resources = () => {
     const blogData = [
         {
             id: 0,
-            img: "https://i.ibb.co/BcyL2kN/section1.jpg",
+            img: img1,
             title: "Find an Institution",
             description: "Trying to find just the right fit? Colleges who belong to the Study Florida Consortium all have information here! Find out what kind of degrees they offer, where they are located and something about their philosophy.",
         },
         {
             id: 1,
-            img: "https://i.ibb.co/V2x90S8/section2.jpg",
+            img: img2,
             title: "Why Florida?",
             description: "Besides all the fun and sun, Florida has 300 regional and hemispheric headquarters for international companies and the fourth largest economy in the U.S. Florida is built for business, innovation and entrepreneurship!",
         },
         {
             id: 2,
-            img: "https://i.ibb.co/ph9kHwh/section3.jpg",
+            img: img3,
             title: "Florida Linkage Institutes",
             description: "Through the Florida Linkage Institutes, each year up to 25 full-time equivalent students from the respective host countries apply to study in any of the state universities or community colleges in Florida.",
         }
